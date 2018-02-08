@@ -4,9 +4,9 @@
   <OriginalElement>com.edu.java.design.mode.aggregate</OriginalElement>
   <nodes>
     <node x="-150.0" y="80.0">com.edu.java.design.mode.aggregate.BookShelf</node>
-    <node x="-90.0" y="343.0">com.edu.java.design.mode.aggregate.Book</node>
+    <node x="-109.0" y="342.0">com.edu.java.design.mode.aggregate.Book</node>
     <node x="267.0" y="90.0">com.edu.java.design.mode.aggregate.BookShelfIterator</node>
-    <node x="357.0" y="347.0">com.edu.java.design.mode.aggregate.main</node>
+    <node x="376.0" y="362.0">com.edu.java.design.mode.aggregate.main</node>
     <node x="304.5" y="-36.0">com.edu.java.design.mode.aggregate.Iterator</node>
     <node x="-109.5" y="-23.0">com.edu.java.design.mode.aggregate.Aggregate</node>
   </nodes>
@@ -15,6 +15,26 @@
     <edge source="com.edu.java.design.mode.aggregate.BookShelfIterator" target="com.edu.java.design.mode.aggregate.Iterator">
       <point x="0.0" y="-73.5" />
       <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.edu.java.design.mode.aggregate.BookShelfIterator" target="com.edu.java.design.mode.aggregate.BookShelf">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.edu.java.design.mode.aggregate.BookShelf" target="com.edu.java.design.mode.aggregate.Book">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.edu.java.design.mode.aggregate.BookShelf" target="com.edu.java.design.mode.aggregate.BookShelfIterator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.edu.java.design.mode.aggregate.main" target="com.edu.java.design.mode.aggregate.Book">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.edu.java.design.mode.aggregate.main" target="com.edu.java.design.mode.aggregate.BookShelf">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.edu.java.design.mode.aggregate.BookShelf" target="com.edu.java.design.mode.aggregate.Aggregate">
       <point x="0.0" y="-85.5" />
