@@ -18,12 +18,12 @@ public class ChainPatternDemo {
     public static void main(String[] args) {
         AbstractLogger logger = getChainOfLoggers();
 
-//        logger.logMessage(AbstractLogger.INFO, "this is an information.");
-//        System.out.println("------------------------------------------");
-//        logger.logMessage(AbstractLogger.DEBUG, "this is an debug information.");
-//        System.out.println("------------------------------------------");
-//        logger.logMessage(AbstractLogger.ERROR, "this is an error information.");
-//        System.out.println("------------------------------------------");
-        logger.logMessage(-1, "this is an error information.");
+        logger.logMessage(AbstractLogger.INFO, "this is an information.");
+        System.out.println("------------------------------------------");
+        logger.logMessage(AbstractLogger.DEBUG, "this is an debug information.");
+        System.out.println("------------------------------------------");
+        logger.logMessage(AbstractLogger.ERROR, "this is an error information.");
+        System.out.println("------------------------------------------");
+//        logger.logMessage(-1, "this is an error information.");
     }
 }
