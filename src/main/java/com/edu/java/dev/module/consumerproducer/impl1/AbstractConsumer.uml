@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.edu.java.dev.module.consumerproducer.core.AbstractConsumer</OriginalElement>
+  <nodes>
+    <node x="261.25" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="346.00277777777774" y="321.5">com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl</node>
+    <node x="96.24999999999997" y="321.5">com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ProducerImpl</node>
+    <node x="424.5" y="80.0">com.edu.java.dev.module.consumerproducer.core.Consumer</node>
+    <node x="523.0027777777777" y="310.0">com.edu.java.dev.module.consumerproducer.core.Model</node>
+    <node x="346.29166666666663" y="195.0">com.edu.java.dev.module.consumerproducer.core.AbstractConsumer</node>
+    <node x="140.99999999999997" y="195.0">com.edu.java.dev.module.consumerproducer.core.AbstractProducer</node>
+    <node x="98.75" y="80.0">com.edu.java.dev.module.consumerproducer.core.Producer</node>
+    <node x="210.54166666666666" y="643.0">com.edu.java.dev.module.consumerproducer.impl1.TestMainImpl1</node>
+    <node x="137.54166666666666" y="446.0">com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule</node>
+    <node x="277.75" y="80.0">java.lang.Runnable</node>
+    <node x="0.0" y="183.0">com.edu.java.dev.module.consumerproducer.core.Task</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer" target="java.lang.Runnable">
+      <point x="-38.75" y="-26.5" />
+      <point x="385.04166666666663" y="158.0" />
+      <point x="381.08333333333337" y="158.0" />
+      <point x="41.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractProducer" target="java.lang.Runnable">
+      <point x="37.25000000000003" y="-26.5" />
+      <point x="252.75" y="158.0" />
+      <point x="298.41666666666663" y="158.0" />
+      <point x="-41.333333333333314" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.core.Task">
+      <point x="-39.75" y="-26.5" />
+      <point x="135.99999999999997" y="285.0" />
+      <point x="90.75" y="285.0" />
+      <point x="30.25" y="38.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer" target="com.edu.java.dev.module.consumerproducer.core.Consumer">
+      <point x="38.75" y="-26.5" />
+      <point x="462.54166666666663" y="158.0" />
+      <point x="463.75" y="158.0" />
+      <point x="-39.25" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule" target="com.edu.java.dev.module.consumerproducer.core.Task">
+      <point x="-133.75" y="-73.5" />
+      <point x="164.29166666666666" y="426.0" />
+      <point x="30.25" y="426.0" />
+      <point x="-30.25" y="38.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.core.Consumer">
+      <point x="52.333333333333314" y="-26.5" />
+      <point x="476.8361111111111" y="285.0" />
+      <point x="527.625" y="285.0" />
+      <point x="527.625" y="158.0" />
+      <point x="542.25" y="158.0" />
+      <point x="39.25" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.core.AbstractProducer">
+      <point x="39.75" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule" target="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ProducerImpl">
+      <point x="-80.25" y="-73.5" />
+      <point x="217.79166666666666" y="416.0" />
+      <point x="135.99999999999997" y="416.0" />
+      <point x="-39.75" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule">
+      <point x="39.75" y="26.5" />
+      <point x="215.49999999999997" y="406.0" />
+      <point x="271.29166666666663" y="406.0" />
+      <point x="-26.75" y="-73.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.TestMainImpl1" target="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl" target="java.lang.Runnable">
+      <point x="-52.333333333333314" y="-26.5" />
+      <point x="372.1694444444445" y="285.0" />
+      <point x="335.79166666666663" y="285.0" />
+      <point x="335.79166666666663" y="158.0" />
+      <point x="339.75" y="158.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule" target="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl">
+      <point x="26.75" y="-73.5" />
+      <point x="324.79166666666663" y="406.0" />
+      <point x="385.25277777777774" y="406.0" />
+      <point x="-39.25" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule" target="com.edu.java.dev.module.consumerproducer.core.Model">
+      <point x="133.75" y="-73.5" />
+      <point x="431.79166666666663" y="426.0" />
+      <point x="668.0027777777777" y="426.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.impl1.BlockingQueueModule">
+      <point x="39.25" y="26.5" />
+      <point x="463.75277777777774" y="416.0" />
+      <point x="378.29166666666663" y="416.0" />
+      <point x="80.25" y="-73.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractProducer" target="com.edu.java.dev.module.consumerproducer.core.Producer">
+      <point x="-37.24999999999997" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9047486033519553" x="283.69273322949664" y="518.4860818630943" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

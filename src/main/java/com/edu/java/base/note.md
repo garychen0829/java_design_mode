@@ -1,20 +1,20 @@
 和动态代理有关的有两个类
-```
-1.interface InvocationHandler
+
++ 1.interface InvocationHandler
 Object invoke(Object proxy, Method method, Object[] args)
 
-2.Class Proxy
++ 2.Class Proxy
 真正表示动态代理的类，提供两个静态方法:
 
-Class<?> getProxyClass(ClassLoader loader, Class<?>[] interface)
-用来产生代理类，参数要提供interface数组，它会生成这些interface的“虚拟实现”，
-用来冒充真实的对象。
+    Class<?> getProxyClass(ClassLoader loader, Class<?>[] interface)
+    用来产生代理类，参数要提供interface数组，它会生成这些interface的“虚拟实现”，
+    用来冒充真实的对象。
+    
+    Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h)
+    产生代理对象，多了InvocationHandler参数(只是InvocationHandler接口的实现类)，
+    ，当请求分发到它与代理对象关联代理对象后，会自动执行h.invoke(...)方法， 
+    invoke方法就是我们用来做N多事情的地方 -_-。
 
-Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h)
-产生代理对象，多了InvocationHandler参数(只是InvocationHandler接口的实现类)，
-，当请求分发到它与代理对象关联代理对象后，会自动执行h.invoke(...)方法， 
-invoke方法就是我们用来做N多事情的地方 -_-。
-```
 
 ###CGlib实现代理
 使用CGLib实现动态代理，完全不受代理类必须实现接口的限制，

@@ -1,19 +1,14 @@
 package com.edu.java.dev.module.consumerproducer.core;
 
 /**
- * 生产线程
- * Created by garychen on 2018/3/28.
+ * Created by garychen on 2018/4/11.
  */
-public class ProducerThread extends Thread{
-
-    /**
-     * 生产者,生产资源
-     */
+public abstract class AbstractProducer implements Producer,Runnable {
     @Override
     public void run() {
         while (true) {
             try {
-                Thread.sleep((long)(1000 * Math.random()));
+                producer();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

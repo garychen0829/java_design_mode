@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.edu.java.dev.module.consumerproducer.core.AbstractConsumer</OriginalElement>
+  <nodes>
+    <node x="198.42028985507238" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="520.5389492753623" y="423.0">com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel</node>
+    <node x="744.3786231884059" y="80.0">com.edu.java.dev.module.consumerproducer.core.Consumer</node>
+    <node x="409.50996376811594" y="296.5">com.edu.java.dev.module.consumerproducer.core.Model</node>
+    <node x="469.9139492753623" y="183.0">com.edu.java.dev.module.consumerproducer.core.AbstractConsumer</node>
+    <node x="42.25" y="183.0">com.edu.java.dev.module.consumerproducer.core.AbstractProducer</node>
+    <node x="719.509963768116" y="308.0">com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl</node>
+    <node x="0.0" y="80.0">com.edu.java.dev.module.consumerproducer.core.Producer</node>
+    <node x="214.92028985507238" y="80.0">java.lang.Runnable</node>
+    <node x="692.205615942029" y="676.0">com.edu.java.dev.module.consumerproducer.impl2.TestMainImpl2</node>
+    <node x="272.6702898550724" y="676.0">com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl</node>
+    <node x="268.509963768116" y="296.0">com.edu.java.dev.module.consumerproducer.core.Task</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer" target="java.lang.Runnable">
+      <point x="-38.75" y="-26.5" />
+      <point x="508.6639492753623" y="153.0" />
+      <point x="323.4202898550724" y="153.0" />
+      <point x="46.5" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl" target="java.lang.Runnable">
+      <point x="-65.41666666666669" y="-26.5" />
+      <point x="285.75362318840575" y="656.0" />
+      <point x="222.384963768116" y="656.0" />
+      <point x="222.384963768116" y="163.0" />
+      <point x="261.4202898550724" y="163.0" />
+      <point x="-15.5" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel">
+      <point x="39.25" y="26.5" />
+      <point x="837.259963768116" y="403.0" />
+      <point x="792.6639492753623" y="403.0" />
+      <point x="116.625" y="-96.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.core.Task">
+      <point x="-13.083333333333371" y="-26.5" />
+      <point x="338.086956521739" y="636.0" />
+      <point x="298.759963768116" y="636.0" />
+      <point x="-30.25" y="38.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer">
+      <point x="0.0" y="-26.5" />
+      <point x="798.009963768116" y="256.0" />
+      <point x="586.1639492753623" y="256.0" />
+      <point x="38.75" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractProducer" target="java.lang.Runnable">
+      <point x="37.25" y="-26.5" />
+      <point x="154.0" y="153.0" />
+      <point x="230.42028985507238" y="153.0" />
+      <point x="-46.5" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel" target="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl">
+      <point x="38.875" y="-96.5" />
+      <point x="714.9139492753623" y="403.0" />
+      <point x="758.759963768116" y="403.0" />
+      <point x="-39.25" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer" target="com.edu.java.dev.module.consumerproducer.core.Consumer">
+      <point x="38.75" y="-26.5" />
+      <point x="586.1639492753623" y="163.0" />
+      <point x="770.5452898550725" y="163.0" />
+      <point x="-52.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.core.Consumer">
+      <point x="65.41666666666669" y="-26.5" />
+      <point x="416.5869565217391" y="656.0" />
+      <point x="909.8432971014493" y="656.0" />
+      <point x="909.8432971014493" y="163.0" />
+      <point x="875.2119565217392" y="163.0" />
+      <point x="52.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl" target="java.lang.Runnable">
+      <point x="-52.33333333333337" y="-26.5" />
+      <point x="745.6766304347825" y="266.0" />
+      <point x="459.4139492753623" y="266.0" />
+      <point x="459.4139492753623" y="163.0" />
+      <point x="292.4202898550724" y="163.0" />
+      <point x="15.5" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel" target="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl">
+      <point x="0.0" y="96.5" />
+      <point x="676.0389492753623" y="646.0" />
+      <point x="390.4202898550724" y="646.0" />
+      <point x="39.25" y="-26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel">
+      <point x="13.083333333333314" y="-26.5" />
+      <point x="364.25362318840575" y="636.0" />
+      <point x="572.3722826086957" y="636.0" />
+      <point x="-103.66666666666663" y="96.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel" target="com.edu.java.dev.module.consumerproducer.core.Model">
+      <point x="-38.875" y="-96.5" />
+      <point x="637.1639492753623" y="393.0" />
+      <point x="554.509963768116" y="393.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ConsumerImpl" target="com.edu.java.dev.module.consumerproducer.core.Consumer">
+      <point x="52.33333333333337" y="-26.5" />
+      <point x="850.3432971014493" y="276.0" />
+      <point x="843.5452898550725" y="276.0" />
+      <point x="843.5452898550725" y="163.0" />
+      <point x="822.8786231884059" y="163.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.TestMainImpl2" target="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel">
+      <point x="0.0" y="-26.5" />
+      <point x="103.66666666666674" y="96.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel.ProducerImpl" target="com.edu.java.dev.module.consumerproducer.core.AbstractConsumer">
+      <point x="-39.25" y="-26.5" />
+      <point x="311.9202898550724" y="646.0" />
+      <point x="258.009963768116" y="646.0" />
+      <point x="258.009963768116" y="276.0" />
+      <point x="508.6639492753623" y="276.0" />
+      <point x="-38.75" y="26.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.impl2.WaitNotifyModel" target="com.edu.java.dev.module.consumerproducer.core.Task">
+      <point x="-116.625" y="-96.5" />
+      <point x="559.4139492753623" y="403.0" />
+      <point x="359.259963768116" y="403.0" />
+      <point x="30.25" y="38.5" />
+    </edge>
+    <edge source="com.edu.java.dev.module.consumerproducer.core.AbstractProducer" target="com.edu.java.dev.module.consumerproducer.core.Producer">
+      <point x="-37.25" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.855807743658211" x="455.0" y="364.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
